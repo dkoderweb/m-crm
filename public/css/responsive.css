@@ -1,0 +1,242 @@
+@media only screen and (min-width:1600px) {
+    .col-xxxl-2 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width:1850px) {
+    .col-xxxl-2 {
+        width: 16.66666667%;
+    }
+}
+
+@media only screen and (min-width:2200px) {
+    .col-xxxl-2 {
+        width: 14.285%;
+    }
+}
+
+@media (1500px <=width <=1919px) {}
+
+@media (1400px <=width <=1499px) {}
+
+@media screen and (max-width: 1399px) {
+    .broker-list-column .broker-detail {
+        padding-right: 10px;
+    }
+    .broker-list-column .broker-detail-flex {
+        gap: 10px;
+    }
+    .broker-image {
+        width: 70px;
+        height: 70px;
+    }
+    .broker-data {
+        width: calc(100% - 80px);
+    }
+    .broker-list-column {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .dashboard-box-middle>aside {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .updown-pro-row>i {
+        font-size: 20px;
+    }
+    .dashboard-progress {
+        width: 55px;
+        height: 55px;
+    }
+    .dashboard-box-bottom>.dash-box-bottom-left {
+        position: initial;
+        transform: none;
+    }
+    .dashboard-box-bottom>.dash-box-bottom-right {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .crm-sidebar {
+        position: fixed;
+        left: -100%;
+        z-index: 9999;
+        transition: all 400ms ease-in-out;
+    }
+    .crm-sidebar-open {
+        left: 15px;
+    }
+    .crm-sidebar-bg {
+        overflow: hidden;
+    }
+    .crm-sidebar-bg::before {
+        content: "";
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0 0 0 / 70%);
+        overflow: hidden;
+    }
+    .crm-body {
+        width: 100%;
+    }
+    .crm-header {
+        padding: 5px 10px;
+    }
+    .sidebar-close-btn,
+    .sidebar-open-btn {
+        display: inline-flex;
+    }
+    .add-unit-modal .modal-dialog {
+        max-width: 730px;
+    }
+    .add-unit-modal .btn-close {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .crm-conatiner {
+        padding: 10px;
+    }
+    .header-left,
+    .header-right {
+        gap: 10px;
+    }
+    .header-search>input {
+        width: 200px;
+    }
+    .profile-box .comn-btn {
+        margin-bottom: 30px;
+    }
+    .dashboard-box {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .filter-menu {
+        width: calc(100vw - 50px);
+        transform: none !important;
+        top: 105% !important;
+    }
+    .rera-row {
+        gap: 10px;
+    }
+    .rera-text {
+        padding: 5px;
+    }
+    .detail-list-row {
+        gap: 10px;
+    }
+    .properties-detail-comn-box {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    #addSellerForm .nav {
+        margin-top: -15px;
+    }
+    #addSellerForm.sw-theme-dots>.nav .nav-link>.num {
+        top: 1px;
+        left: -3px;
+        font-size: 20px;
+    }
+    #addSellerForm.sw-theme-dots>.nav::before,
+    #addSellerForm.sw-theme-dots>.nav::after {
+        top: 22px;
+        left: 18px;
+    }
+    #addSellerForm.sw-theme-dots>.nav::before {
+        height: 80%;
+    }
+    #addSellerForm.sw-theme-dots>.nav::after {
+        max-height: 80%;
+    }
+    #addSellerForm.sw-theme-dots>.nav .nav-link.default {
+        margin: 20px 0px;
+        padding-left: 50px;
+    }
+    .properties-detail-list-2-part>li {
+        width: 100%;
+    }
+    .add-unit-modal .modal-body,
+    .add-unit-accordion .accordion-button {
+        padding: 10px;
+    }
+    .add-unit-accordion .accordion-body {
+        padding: 0px 10px 10px;
+    }
+    .add-unit-accordion .accordion-item {
+        margin-bottom: 10px;
+    }
+    .properties-detail-list>li>input[type="radio"],
+    .properties-detail-list>li>input[type="checkbox"] {
+        width: 13px;
+        height: 13px;
+        margin-top: 4px;
+    }
+    .mobile-mb-5 {
+        margin-bottom: 5px;
+    }
+    .amenities-comn-list>li {
+        width: calc(50% - 5px);
+    }
+    .nearby-comn-list>li {
+        width: 100%;
+        gap: 5px;
+    }
+    .amenities-data-row {
+        gap: 5px;
+        padding: 5px;
+    }
+    .add-unit-modal .modal-dialog {
+        max-width: 95%;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .crm-sidebar-open {
+        width: calc(100% - 30px);
+    }
+    .header-search>input {
+        width: calc(100vw - 90px);
+    }
+    .header-right {
+        margin-left: auto;
+        gap: 10px;
+    }
+    .show-entries-row {
+        width: 100%;
+    }
+    .filter-menu {
+        width: calc(100vw - 50px);
+        left: auto !important;
+        right: auto !important;
+    }
+    .properties-detail-box .properties-image>img {
+        height: 150px;
+    }
+    .rera-row {
+        order: 1;
+    }
+    .download-file-row {
+        margin-top: 15px;
+        padding: 0px;
+    }
+    .amenities-comn-list>li {
+        width: 100%;
+    }
+    .amenities-comn-list li>.comn-form-control {
+        max-width: 130px;
+        padding: 7px 5px;
+    }
+    .amenities-comn-list li>.comn-form-control::placeholder {
+        font-size: 10px;
+    }
+}
